@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+	<ExtensionPackages>
+		<ExtensionPackage name="BMValueInterpolator"
+						  description="Smoothly interpolates an input value."
+						  vendor="ThingWorx Customer Service"
+						  packageVersion="1.0.3" 
+						  minimumThingWorxVersion="4.1.0" />
+	</ExtensionPackages>
+	<Widgets>
+		<Widget name="BMValueInterpolator">
+			<UIResources>
+				<!-- Studio ONLY -->
+				<FileResource type="CSS" file="BMValueInterpolator.ide.css" description="" isDevelopment="true" isRuntime="false" />
+				<FileResource type="JS" file="BMValueInterpolator.ide.js" description="" isDevelopment="true" isRuntime="false" />
+				<!-- Runtime/Squeal ONLY -->
+				<FileResource type="CSS" file="BMValueInterpolator.runtime.css" description="" isDevelopment="false" isRuntime="true" />
+				<FileResource type="JS" file="BMValueInterpolator.runtime.js" description="" isDevelopment="false" isRuntime="true" />
+			</UIResources>
+		</Widget>
+	</Widgets>
+</Entities>
