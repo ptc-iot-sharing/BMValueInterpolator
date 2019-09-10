@@ -36,7 +36,12 @@ TW.Runtime.Widgets.BMValueInterpolator = function () {
 					easing: easing,
 					duration: this.getProperty('Duration'),
 					progress: function (elements, complete, remaining, start, tweenValue) {
-						self.setProperty('OutputValue', BMNumberByInterpolatingNumbersWithFraction(fromValue, toValue, tweenValue));
+						try {
+							self.setProperty('OutputValue', BMNumberByInterpolatingNumbersWithFraction(fromValue, toValue, tweenValue));
+						}
+						catch (e) {
+							// no-op, but an exception propagated up to velocity.js can leave it in an undefined state
+						}
 					},
 					queue: false
 				});

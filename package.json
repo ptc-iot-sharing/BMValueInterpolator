@@ -2,7 +2,7 @@
     "name": "BMValueInterpolator",
     "packageName": "BMValueInterpolator",
     "moduleName": "BMValueInterpolator",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "A D3 based chart that is highly configurable at runtime.",
     "thingworxServer": "http://localhost",
     "thingworxUser": "Administrator",
